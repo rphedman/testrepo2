@@ -21,5 +21,8 @@ int main(int argc, char** argv)
         puts("This code is never reached.");
     }
 
+    // Leak some memory
+    printf("%p\n", malloc(32));
+
     return EXIT_SUCCESS;
 }
