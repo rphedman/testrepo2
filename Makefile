@@ -31,4 +31,4 @@ covsubmit: $(COVTAR)
 	     --form file=@$(COVTAR) \
 	     --form version="1.0" \
 	     --form description="Testrepo2" \
-	     https://scan.coverity.com/builds?project=gumbyhedman%2Ftestrepo2
+	     https://scan.coverity.com/builds?project=rphedman%2Ftestrepo2
