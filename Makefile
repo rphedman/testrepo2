@@ -26,7 +26,7 @@ $(COVTAR): covbuild
 covtar: $(COVTAR)
 
 covsubmit: $(COVTAR)
-	curl --form token= ieTwgvxfyU-Lh924rHSPrg \
+	curl --form token=ieTwgvxfyU-Lh924rHSPrg \
 	     --form email=gumby@hedman.ca \
 	     --form file=@$(COVTAR) \
 	     --form version="1.0" \
